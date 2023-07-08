@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: coral;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.alertContainer {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: lightgreen;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.4s;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inputContainer input {
+    background-color: coral;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.inputContainer i {
+    opacity: 20%;
+    cursor: pointer;
+}
+
+.inputContainer i:hover {
+    opacity: 100%;
+}
+
+.passwordButton {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    margin: 10px 0;
+    background-color: green;
+    color: white;
+}
+
+.passwordButton:hover {
+    background-color: red;
+}
+
+h2 {
+    color: white;
+}
+
+.active {
+    right: -320px;
+}
